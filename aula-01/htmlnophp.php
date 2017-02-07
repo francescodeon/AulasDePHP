@@ -5,7 +5,6 @@
 	<body>
 		<?php
 			echo "Estou no meio do HTML";
-		?>
-	
+		?>		
 	</body>
 </html>
