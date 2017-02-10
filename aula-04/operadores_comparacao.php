@@ -1,0 +1,20 @@
+<?php
+$imovel[]='Casa';
+$imovel[]='Apto';
+$resultado[]=($imovel[0]==$imovel[1]);
+$resultado[]=($imovel[0])===$imovel[1];
+$resultado[]=($imovel[0])!=$imovel[1];
+$resultado[]=($imovel[0])<>$imovel[1];
+$resultado[]=($imovel[0])!==$imovel[1];
+$resultado[]=($imovel[0])<$imovel[1];
+$resultado[]=($imovel[0])>$imovel[1];
+$resultado[]=($imovel[0])>=$imovel[1];
+$resultado[]=($imovel[0])>=$imovel[1];
+var_dump ($resultado);
+$numeros[]=('93');
+$numeros[]=('96');
+$numeros[]=('93');
+$result[]=($numeros[0]<=>$numeros[1]);
+$result[]=($numeros[1]<=>$numeros[0]);
+$result[]=($numeros[0]<=>$numeros[2]);
+var_dump ($result);
