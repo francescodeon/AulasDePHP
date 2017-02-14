@@ -15,5 +15,5 @@ if($salario>1000)
 }
 if (($salario>1000)&&($tempo_servico>=12)&&($tem_reclamacoes!=true))
 {
-	echo 'parabéns você foi promovido 2';
+	echo 'parabéns, você foi promovido 2';
 }

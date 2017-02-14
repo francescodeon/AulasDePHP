@@ -5,3 +5,4 @@ if($a==5){
 }	else{
 	echo "não é igual";
 }
+
