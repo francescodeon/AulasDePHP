@@ -9,7 +9,7 @@ if(mysqli_num_rows($resultado)){
 	while($row = mysqli_fetch_assoc($resultado)){
 
 		echo 'CODIGO MATRICULA: '. $row['id'];
-		$dados_aluno = mysqli_query($link, "SELECT id, nome,endereco,cpf,email,data_nascimento,responsavel,telefone  FROM aluno WHERE id=".$row[0]);	
+		$dados_aluno = mysqli_query($link, "SELECT id, nome,endereco,cpf,email,data_nascimento,responsavel,telefone  FROM aluno WHERE id=".$row['id']);	
 		print_r($dados_aluno);
 		die();
 		if(mysqli_num_rows($dados_aluno)){
